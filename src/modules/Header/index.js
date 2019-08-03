@@ -25,10 +25,10 @@ function Header() {
     <MainRow component='header' justify='between' nogutter>
       <Col xs={12}>
         <Container>
-          <Row>
+          <Row component='section'>
             <TopHeader />
           </Row>
-          <Row>
+          <Row component='section'>
             <BottomHeader />
           </Row>
         </Container>

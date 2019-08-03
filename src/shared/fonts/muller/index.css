@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'MullerRegular';
+  src: url("./MullerRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'MullerMedium';
+  src: url("./MullerMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: 'MullerBold';
+  src: url("./MullerBold.otf") format("opentype");
+}
+@font-face {
+  font-family: 'MullerExtraBold';
+  src: url("./MullerExtraBold.otf") format("opentype");
+}

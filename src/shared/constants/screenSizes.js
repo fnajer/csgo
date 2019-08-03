@@ -1,0 +1,6 @@
+export const XSMALL = '500px'
+export const SMALL = '600px'
+export const MEDIUM = '768px'
+export const LARGE = '1000px'
+export const SLARGE = '1200px'
+export const XLARGE = '1335px'

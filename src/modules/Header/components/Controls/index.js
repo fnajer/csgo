@@ -11,11 +11,13 @@ const AddIcon = styled.img.attrs(props => ({
 const Deposit = styled.div`
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
   width: 25px;
   height: 25px;
   margin-right: 10px;
   border-radius: 50%;
   background-color: #17bb6d;
+  cursor: pointer;
 `
 
 

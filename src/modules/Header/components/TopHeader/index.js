@@ -35,7 +35,7 @@ const ProposalsCol = styled(Col)`
   @media (max-width: ${ScreenSizes.SLARGE}) {
     justify-content: center;
     min-height: 90px !important;
-    > div:last-child {
+    > :last-child {
       border-right: none;
     }
     &::before {
@@ -57,12 +57,12 @@ function TopHeader() {
         <Logo />
         <Valve />
       </LogoCol>
-      <AccountCol xs={6} xl={4.2} push={{ xl: 4.4 }}>
+      <AccountCol xs={6} xl={4.3} push={{ xl: 4.3 }}>
         <MyBets />
         <Profile />
         <Controls />
       </AccountCol>
-      <ProposalsCol xl={4.4} pull={{ xl: 4.2 }}>
+      <ProposalsCol xl={4.3} pull={{ xl: 4.3 }}>
         <Proposals />
       </ProposalsCol>
     </>
